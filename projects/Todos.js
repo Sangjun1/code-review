@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 
 const Todos = (props) =>{
 
-  console.log(props);
   return(
     <div className="checkBoxText">
       <h2>{props.title}</h2>
